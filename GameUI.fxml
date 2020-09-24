@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="a1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <SplitPane dividerPositions="0.6705685618729097" layoutY="1.0" prefHeight="394.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Line endX="239.4000244140625" layoutX="159.0" layoutY="137.0" startX="-159.00001525878906" strokeWidth="5.0" />
+                  <Line endX="218.4000244140625" endY="3.0517578125E-5" layoutX="180.0" layoutY="278.0" startX="-180.00001525878906" startY="6.103515625E-5" strokeWidth="5.0" />
+                  <Line endX="331.6683044433594" endY="310.2488098144531" layoutX="1.0" layoutY="-121.0" rotate="90.0" startX="-79.62061309814453" startY="306.06231689453125" strokeWidth="5.0" />
+                  <Line endX="131.4000244140625" endY="1.52587890625E-5" layoutX="342.0" layoutY="200.0" rotate="90.0" startX="-267.0" startY="1.52587890625E-5" strokeWidth="5.0" />
+                  <Button fx:id="button1" layoutY="-2.0" mnemonicParsing="false" onAction="#onpress1" onMouseClicked="#mouseclick" prefHeight="136.0" prefWidth="124.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button2" layoutX="133.0" layoutY="-1.0" mnemonicParsing="false" onAction="#onpress2" onMouseClicked="#mouseclick" prefHeight="136.0" prefWidth="138.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button3" layoutX="275.0" layoutY="-2.0" mnemonicParsing="false" onAction="#onpress3" onMouseClicked="#mouseclick" prefHeight="136.0" prefWidth="124.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button4" layoutY="138.0" mnemonicParsing="false" onAction="#onpress4" onMousePressed="#mouseclick" prefHeight="136.0" prefWidth="124.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button5" layoutX="133.0" layoutY="142.0" mnemonicParsing="false" onAction="#onpress5" onMousePressed="#mouseclick" prefHeight="130.0" prefWidth="138.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button6" layoutX="275.0" layoutY="139.0" mnemonicParsing="false" onAction="#onpress6" onMouseClicked="#mouseclick" prefHeight="136.0" prefWidth="124.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button7" layoutX="-2.0" layoutY="281.0" mnemonicParsing="false" onAction="#onpress7" onMouseClicked="#mouseclick" prefHeight="111.0" prefWidth="124.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button8" layoutX="130.0" layoutY="281.0" mnemonicParsing="false" onAction="#onpress8" onMouseClicked="#mouseclick" prefHeight="111.0" prefWidth="138.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button9" layoutX="280.0" layoutY="281.0" mnemonicParsing="false" onAction="#onpress9" onMouseClicked="#mouseclick" prefHeight="111.0" prefWidth="117.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Button>
+                  <Line fx:id="horizontal_1" endX="235.4000244140625" endY="-2.0" layoutX="163.0" layoutY="208.0" startX="-163.00001525878906" startY="-2.0" stroke="#d9ff00" visible="false" />
+                  <Line fx:id="horizontal_2" endX="213.0" endY="-9.0" layoutX="186.0" layoutY="75.0" startX="-186.00001525878906" startY="-9.0" stroke="#f2ff00" visible="false" />
+                  <Line fx:id="horizontal_3" endX="234.60003662109375" endY="0.60003662109375" layoutX="163.0" layoutY="336.0" startX="-165.00001525878906" startY="0.60003662109375" stroke="#e6ff00" visible="false" />
+                  <Line fx:id="vertical_1" endX="49.9999885559082" endY="379.4000244140625" layoutX="10.0" layoutY="10.0" startX="51.9999885559082" startY="-12.999994277954102" stroke="#f2ff00" visible="false" />
+                  <Line fx:id="vertical_2" endX="52.19999694824219" endY="356.20001220703125" layoutX="147.0" layoutY="36.0" startX="55.19999694824219" startY="-36.99999237060547" stroke="YELLOW" visible="false" />
+                  <Line fx:id="vertical_3" endX="50.0" endY="324.60003662109375" layoutX="286.0" layoutY="64.0" startX="51.0" startY="-65.99999237060547" stroke="#f2ff00" visible="false" />
+                  <Line fx:id="diagonal_1" endX="300.6326599121094" endY="19.454078674316406" layoutX="173.0" layoutY="178.0" rotate="45.0" startX="-252.9404754638672" startY="20.00395393371582" stroke="#f2ff00" visible="false" />
+                  <Line fx:id="diagonal_2" endX="77.18313598632812" endY="324.25665283203125" layoutX="128.0" layoutY="151.0" rotate="45.0" startX="79.94420623779297" startY="-236.6483612060547" stroke="#fbff00" visible="false" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TextField alignment="CENTER" layoutX="11.0" layoutY="8.0" prefHeight="39.0" prefWidth="171.0" text="Themes">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </TextField>
+                  <RadioButton fx:id="radiobutton1" layoutX="14.0" layoutY="63.0" mnemonicParsing="false" onAction="#classic_pressed" prefHeight="30.0" prefWidth="171.0" text="Classic">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tggroup" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="radiobutton2" layoutX="14.0" layoutY="93.0" mnemonicParsing="false" onAction="#forest_pressed" prefHeight="30.0" prefWidth="162.0" text="Forest" toggleGroup="$tggroup">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="radiobutton3" layoutX="14.0" layoutY="123.0" mnemonicParsing="false" onAction="#highContrast_pressed" prefHeight="30.0" prefWidth="171.0" text="High_Contrast" toggleGroup="$tggroup">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </RadioButton>
+                  <ToggleButton fx:id="togglebutton1" layoutX="19.0" layoutY="253.0" mnemonicParsing="false" onAction="#Random_AL_pressed" prefHeight="30.0" prefWidth="154.0" text="Random_AI">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <ToggleButton layoutX="21.0" layoutY="299.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="154.0" text="Defensive_AI">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
